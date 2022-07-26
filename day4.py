@@ -1,26 +1,27 @@
 import random
 rps = random.randint(1,3)
 
-print("1 for R, 2 for P and 3 for S")
+print("Type 1 for Rock, 2 for Paper and 3 for Scissors")
 ui = int(input())
 
 if ui == 1 and rps == 1:
-  print("Draw")
-elif ui == 1 and rps ==2:
-  print("You lose")
-elif ui == 1 and rps ==3:
-  print("You won bitch")
+  print("You Draw. AI chose Rock")
+elif ui == 1 and rps == 2:
+  print("You Lose. AI chose Paper")
+elif ui == 1 and rps == 3:
+  print("You Won. AI chose Scissor")
 elif ui == 2 and rps == 1:
-  print("won")
-elif ui == 2 and rps ==2:
-  print("draw")
-elif ui == 2 and rps ==3:
-  print("lose")
+  print("You Won. AI chose Rock")
+elif ui == 2 and rps == 2:
+  print("It is a Draw. AI chose Paper")
+elif ui == 2 and rps == 3:
+  print("You Lose. AI chose Scissor")
 elif ui == 3 and rps == 1:
-  print("lose")
-elif ui == 3 and rps ==2:
-  print("won")
-elif ui == 3 and rps ==3:
-  print("draw")
+  print("You Lose. AI chose Rock")
+elif ui == 3 and rps == 2:
+  print("You Won. AI chose Paper")
+elif ui == 3 and rps == 3:
+  print("It is a Draw. AI chose Scissor")
 else:
   print()
+
